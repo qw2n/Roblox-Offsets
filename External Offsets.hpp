@@ -80,8 +80,8 @@ namespace Offsets {
         inline constexpr uintptr_t CastShadow = 0xF5; // (bool) (BasePart::CastShadow)
         inline constexpr uintptr_t Locked = 0xF6; // (bool) (BasePart::Locked)
         inline constexpr uintptr_t Sandboxed = 0xC5; // (bool) (BasePart::Sandboxed)
-        inline constexpr uintptr_t Archivable = 0x2F5; // (bool) (BasePart::Archivable)
-        inline constexpr uintptr_t AudioCanCollide = 0x2F6; // (bool) (BasePart::AudioCanCollide)
+        inline constexpr uintptr_t Archivable = 0xC4; // (bool) (BasePart::Archivable)
+        inline constexpr uintptr_t AudioCanCollide = 0xF4; // (bool) (BasePart::AudioCanCollide)
         inline constexpr uintptr_t Massless = 0xF7; // (bool) (BasePart::Massless)
         inline constexpr uintptr_t EnableFluidForces = 0x26D; // (bool) (BasePart::Primitive::EnableFluidForces)
     }
