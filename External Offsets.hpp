@@ -1,5 +1,5 @@
 // Dumped by BinaryCrypt (Aka Qwar1e)
-// Dumped at: 4.000063s
+// Dumped at: 4.296920s
 // Offsets Count: 51
 
 #include <Windows>
@@ -75,9 +75,9 @@ namespace Offsets {
         inline constexpr uintptr_t Primitive = 0x148; // (uintptr_t) (BasePart::Primitive)
         inline constexpr uintptr_t Position = 0xE4; // (Vector3) (BasePart::Primitive::Position)
         inline constexpr uintptr_t PartSize = 0x1B0; // (Vector3) (BasePart::Primitive::Size)
+        inline constexpr uintptr_t RootPriority = 0x1; // (int) (BasePart::Primitive::RootPriority) | Removed from dumps
         inline constexpr uintptr_t Color = 0x194; // (Color3) (BasePart::Color)
-        inline constexpr uintptr_t RootPriority = 0x0; // (None) (None) | Failed to dump
-        inline constexpr uintptr_t CastShadow = 0x2C5; // (bool) (BasePart::CastShadow)
+        inline constexpr uintptr_t CastShadow = 0x2F4; // (bool) (BasePart::CastShadow)
         inline constexpr uintptr_t Locked = 0xF6; // (bool) (BasePart::Locked)
         inline constexpr uintptr_t Sandboxed = 0xC5; // (bool) (BasePart::Sandboxed)
         inline constexpr uintptr_t Archivable = 0xC4; // (bool) (BasePart::Archivable)
