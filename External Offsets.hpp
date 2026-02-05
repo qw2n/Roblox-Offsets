@@ -1,5 +1,5 @@
 // Dumped by BinaryCrypt (Aka Qwar1e)
-// Dumped at: 4.296920s
+// Dumped at: 0.304690s
 // Offsets Count: 51
 
 #include <Windows>
@@ -14,10 +14,10 @@ struct Color3 {
 }
 
 namespace Offsets {
-	inline const std::string RobloxVersion = "version-4464ba36ceea461e";
+	inline const std::string RobloxVersion = "version-80c7b8e578f241ff";
 
     namespace DataModel {
-        inline constexpr uintptr_t FakeDataModelPointer = 0x800F778; // (uintptr_t) (Roblox::FakeDataModelPointer)
+        inline constexpr uintptr_t FakeDataModelPointer = 0x7C75728; // (uintptr_t) (Roblox::FakeDataModelPointer)
         inline constexpr uintptr_t FakeDataModelToDataModel = 0x1C0; // (uintptr_t) (FakeDataModelPointer::FakeDataModelToDataModel)
         inline constexpr uintptr_t Workspace = 0x178; // (uintptr_t) (DataModel::Workspace)
         inline constexpr uintptr_t GameId = 0x190; // (uintptr_t) (DataModel::GameId)
@@ -25,7 +25,7 @@ namespace Offsets {
     }
 
     namespace VisualEngine {
-        inline constexpr uintptr_t VisualEnginePointer = 0x7AED020; // (uintptr_t) (Roblox::VisualEnginePointer)
+        inline constexpr uintptr_t VisualEnginePointer = 0x775E8D0; // (uintptr_t) (Roblox::VisualEnginePointer)
         inline constexpr uintptr_t FakeDataModelPointer = 0x700; // (uintptr_t) (VisualEnginePointer::FakeDataModelPointer)
         inline constexpr uintptr_t FakeDataModelToDataModel = 0x1C0; // (uintptr_t) (FakeDataModelPointer::FakeDataModelToDataModel)
     }
@@ -77,11 +77,11 @@ namespace Offsets {
         inline constexpr uintptr_t PartSize = 0x1B0; // (Vector3) (BasePart::Primitive::Size)
         inline constexpr uintptr_t RootPriority = 0x1; // (int) (BasePart::Primitive::RootPriority) | Removed from dumps
         inline constexpr uintptr_t Color = 0x194; // (Color3) (BasePart::Color)
-        inline constexpr uintptr_t CastShadow = 0x2F4; // (bool) (BasePart::CastShadow)
+        inline constexpr uintptr_t CastShadow = 0xF5; // (bool) (BasePart::CastShadow)
         inline constexpr uintptr_t Locked = 0xF6; // (bool) (BasePart::Locked)
         inline constexpr uintptr_t Sandboxed = 0xC5; // (bool) (BasePart::Sandboxed)
-        inline constexpr uintptr_t Archivable = 0xC4; // (bool) (BasePart::Archivable)
-        inline constexpr uintptr_t AudioCanCollide = 0xF4; // (bool) (BasePart::AudioCanCollide)
+        inline constexpr uintptr_t Archivable = 0x2F5; // (bool) (BasePart::Archivable)
+        inline constexpr uintptr_t AudioCanCollide = 0x2F6; // (bool) (BasePart::AudioCanCollide)
         inline constexpr uintptr_t Massless = 0xF7; // (bool) (BasePart::Massless)
         inline constexpr uintptr_t EnableFluidForces = 0x26D; // (bool) (BasePart::Primitive::EnableFluidForces)
     }
