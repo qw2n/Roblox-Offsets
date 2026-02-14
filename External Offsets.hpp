@@ -1,5 +1,5 @@
 // Dumped by BinaryCrypt (Aka Qwar1e)
-// Dumped at: 0.304690s
+// Dumped at: 2.962417s
 // Offsets Count: 51
 
 #include <Windows>
@@ -14,10 +14,10 @@ struct Color3 {
 }
 
 namespace Offsets {
-	inline const std::string RobloxVersion = "version-80c7b8e578f241ff";
+	inline const std::string RobloxVersion = "version-bd08027bb04e4045";
 
     namespace DataModel {
-        inline constexpr uintptr_t FakeDataModelPointer = 0x7C75728; // (uintptr_t) (Roblox::FakeDataModelPointer)
+        inline constexpr uintptr_t FakeDataModelPointer = 0x7D909F8; // (uintptr_t) (Roblox::FakeDataModelPointer)
         inline constexpr uintptr_t FakeDataModelToDataModel = 0x1C0; // (uintptr_t) (FakeDataModelPointer::FakeDataModelToDataModel)
         inline constexpr uintptr_t Workspace = 0x178; // (uintptr_t) (DataModel::Workspace)
         inline constexpr uintptr_t GameId = 0x190; // (uintptr_t) (DataModel::GameId)
@@ -25,14 +25,14 @@ namespace Offsets {
     }
 
     namespace VisualEngine {
-        inline constexpr uintptr_t VisualEnginePointer = 0x775E8D0; // (uintptr_t) (Roblox::VisualEnginePointer)
+        inline constexpr uintptr_t VisualEnginePointer = 0x79449E0; // (uintptr_t) (Roblox::VisualEnginePointer)
         inline constexpr uintptr_t FakeDataModelPointer = 0x700; // (uintptr_t) (VisualEnginePointer::FakeDataModelPointer)
         inline constexpr uintptr_t FakeDataModelToDataModel = 0x1C0; // (uintptr_t) (FakeDataModelPointer::FakeDataModelToDataModel)
     }
 
     namespace Workspace {
-        inline constexpr uintptr_t Terrain = 0x470; // (uintptr_t) (Workspace::Terrain)
-        inline constexpr uintptr_t Camera = 0x460; // (uintptr_t) (Workspace::Camera)
+        inline constexpr uintptr_t Terrain = 0x4B0; // (uintptr_t) (Workspace::Terrain)
+        inline constexpr uintptr_t Camera = 0x4A0; // (uintptr_t) (Workspace::Camera)
         inline constexpr uintptr_t WorkspaceToWorld = 0x3D8; // (uintptr_t) (Workspace::World)
     }
 
@@ -79,10 +79,10 @@ namespace Offsets {
         inline constexpr uintptr_t Color = 0x194; // (Color3) (BasePart::Color)
         inline constexpr uintptr_t CastShadow = 0xF5; // (bool) (BasePart::CastShadow)
         inline constexpr uintptr_t Locked = 0xF6; // (bool) (BasePart::Locked)
-        inline constexpr uintptr_t Sandboxed = 0xC5; // (bool) (BasePart::Sandboxed)
-        inline constexpr uintptr_t Archivable = 0xC4; // (bool) (BasePart::Archivable)
+        inline constexpr uintptr_t Sandboxed = 0x2F7; // (bool) (BasePart::Sandboxed)
+        inline constexpr uintptr_t Archivable = 0x2F6; // (bool) (BasePart::Archivable)
         inline constexpr uintptr_t AudioCanCollide = 0xF4; // (bool) (BasePart::AudioCanCollide)
-        inline constexpr uintptr_t Massless = 0xF7; // (bool) (BasePart::Massless)
+        inline constexpr uintptr_t Massless = 0x2C4; // (bool) (BasePart::Massless)
         inline constexpr uintptr_t EnableFluidForces = 0x26D; // (bool) (BasePart::Primitive::EnableFluidForces)
     }
 
