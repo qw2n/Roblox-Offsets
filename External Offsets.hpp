@@ -1,8 +1,9 @@
 // By BinaryCrypt (Aka Qwar1e)
-// Time taken: 52.350176s
-// Offsets Count: 51
+// Time taken: 40.287374s
+// Offsets Count: 52
 
-#include <Windows>
+#include <Windows.h>
+#include <stdint.h>
 #include <string>
 
 struct Vector3 {
@@ -20,13 +21,14 @@ namespace Offsets {
         inline constexpr uintptr_t FakeDataModelPointer = 0x834A988; // (uintptr_t) (Roblox::FakeDataModelPointer)
         inline constexpr uintptr_t FakeDataModelToDataModel = 0x1C0; // (uintptr_t) (FakeDataModelPointer::FakeDataModelToDataModel)
         inline constexpr uintptr_t Workspace = 0x178; // (uintptr_t) (DataModel::Workspace)
+        inline constexpr uintptr_t ScriptContext = 0x3F0; // (uintptr_t) (DataModel::ScriptContext)
         inline constexpr uintptr_t GameId = 0x190; // (uintptr_t) (DataModel::GameId)
         inline constexpr uintptr_t PlaceId = 0x198; // (uintptr_t) (DataModel::PlaceId)
     }
 
     namespace VisualEngine {
-        inline constexpr uintptr_t VisualEnginePointer = 0x78B9AC8; // (uintptr_t) (Roblox::VisualEnginePointer)
-        inline constexpr uintptr_t FakeDataModelPointer = 0x808; // (uintptr_t) (VisualEnginePointer::FakeDataModelPointer)
+        inline constexpr uintptr_t VisualEnginePointer = 0x7EF81D8; // (uintptr_t) (Roblox::VisualEnginePointer)
+        inline constexpr uintptr_t FakeDataModelPointer = 0xA40; // (uintptr_t) (VisualEnginePointer::FakeDataModelPointer)
         inline constexpr uintptr_t FakeDataModelToDataModel = 0x1C0; // (uintptr_t) (FakeDataModelPointer::FakeDataModelToDataModel)
     }
 
@@ -79,9 +81,9 @@ namespace Offsets {
         inline constexpr uintptr_t Color = 0x194; // (Color3) (BasePart::Color)
         inline constexpr uintptr_t CastShadow = 0xF5; // (bool) (BasePart::CastShadow)
         inline constexpr uintptr_t Locked = 0xF6; // (bool) (BasePart::Locked)
-        inline constexpr uintptr_t Sandboxed = 0xC5; // (bool) (BasePart::Sandboxed)
-        inline constexpr uintptr_t Archivable = 0xC4; // (bool) (BasePart::Archivable)
-        inline constexpr uintptr_t AudioCanCollide = 0x2C5; // (bool) (BasePart::AudioCanCollide)
+        inline constexpr uintptr_t Sandboxed = 0x2F5; // (bool) (BasePart::Sandboxed)
+        inline constexpr uintptr_t Archivable = 0x2F4; // (bool) (BasePart::Archivable)
+        inline constexpr uintptr_t AudioCanCollide = 0x2F6; // (bool) (BasePart::AudioCanCollide)
         inline constexpr uintptr_t Massless = 0xF7; // (bool) (BasePart::Massless)
         inline constexpr uintptr_t EnableFluidForces = 0x255; // (bool) (BasePart::Primitive::EnableFluidForces)
     }
