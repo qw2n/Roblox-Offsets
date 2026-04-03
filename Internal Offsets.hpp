@@ -1,10 +1,12 @@
-// Dumped at: 1.247295s
+// by BinaryCrypt (Aka Qwar1e)
+// Time taken: 1.206504s
 // Offsets Count: 17
 
 namespace Offsets {
 	inline const std::string RobloxVersion = "version-689e359b09ad43b0";
 
     namespace Roblox {
+        inline constexpr uintptr_t KTable = 0x7C50600;
         inline constexpr uintptr_t Print = 0x1D1FF80;
         inline constexpr uintptr_t ScriptContextResume = 0x1C90410;
         inline constexpr uintptr_t GetLuaState = 0x1B64F50;
@@ -35,7 +37,6 @@ namespace Offsets {
     }
 
     namespace Misc {
-        inline constexpr uintptr_t KTable = 0x7C50600;
         inline constexpr uintptr_t close_state = 0x41AF4B0;
         inline constexpr uintptr_t deletegco = 0x41BAEA0;
         inline constexpr uintptr_t freeobj = 0x41BAA70;

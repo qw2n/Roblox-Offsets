@@ -1,5 +1,5 @@
 // By BinaryCrypt (Aka Qwar1e)
-// Time taken: 40.287374s
+// Time taken: 45.758444s
 // Offsets Count: 52
 
 #include <Windows.h>
@@ -79,13 +79,13 @@ namespace Offsets {
         inline constexpr uintptr_t PartSize = 0x1B0; // (Vector3) (BasePart::Primitive::Size)
         inline constexpr uintptr_t RootPriority = 0x1; // (int) (BasePart::Primitive::RootPriority) | Removed from dumps
         inline constexpr uintptr_t Color = 0x194; // (Color3) (BasePart::Color)
-        inline constexpr uintptr_t CastShadow = 0xF5; // (bool) (BasePart::CastShadow)
+        inline constexpr uintptr_t CastShadow = 0x2C5; // (bool) (BasePart::CastShadow)
         inline constexpr uintptr_t Locked = 0xF6; // (bool) (BasePart::Locked)
-        inline constexpr uintptr_t Sandboxed = 0x2F5; // (bool) (BasePart::Sandboxed)
-        inline constexpr uintptr_t Archivable = 0x2F4; // (bool) (BasePart::Archivable)
-        inline constexpr uintptr_t AudioCanCollide = 0x2F6; // (bool) (BasePart::AudioCanCollide)
+        inline constexpr uintptr_t Sandboxed = 0x2F4; // (bool) (BasePart::Sandboxed)
+        inline constexpr uintptr_t Archivable = 0xC4; // (bool) (BasePart::Archivable)
+        inline constexpr uintptr_t AudioCanCollide = 0x2C4; // (bool) (BasePart::AudioCanCollide)
         inline constexpr uintptr_t Massless = 0xF7; // (bool) (BasePart::Massless)
-        inline constexpr uintptr_t EnableFluidForces = 0x255; // (bool) (BasePart::Primitive::EnableFluidForces)
+        inline constexpr uintptr_t EnableFluidForces = 0x352; // (bool) (BasePart::Primitive::EnableFluidForces)
     }
 
     namespace ClickDetector {

@@ -1,3 +1,9 @@
+// By BinaryCrypt (Aka Qwar1e)
+// Time taken: 0.116456s
+
+#include <Windows.h>
+#include <stdint.h>
+
 struct lua_State;
 
 namespace Offsets {
