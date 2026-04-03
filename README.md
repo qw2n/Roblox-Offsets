@@ -1,11 +1,12 @@
-what you can find here?
-      \nExternal offsets -> 51
-      \nInternal offsets -> 17
-      \nDecryptLuaState
-      \nLua Structs -> in progress...
-      \nLua Encryptions -> in progress...
+What you can find here?
 
-star this project if u can, thx!
+      External Offsets  →  51
+      Internal Offsets  →  17
+      DecryptLuaState   →  Available
+      Lua Structures    →  In progress…
+      Lua Encryptions   →  In progress…
 
-Discord: binarycrypt
-Discord Server: https://discord.gg/pY6nDej76m
+How to contact with me?
+
+      Discord: binarycrypt
+      Discord Server: https://discord.gg/pY6nDej76m
