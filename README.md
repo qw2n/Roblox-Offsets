@@ -1,6 +1,6 @@
 What you can find here?
 
-      External Offsets  →  51
+      External Offsets  →  52
       Internal Offsets  →  17
       DecryptLuaState   →  Available
       Lua Structures    →  In progress…
