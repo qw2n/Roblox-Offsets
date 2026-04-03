@@ -1,3 +1,5 @@
+struct lua_State;
+
 namespace Offsets {
 	namespace ScriptContext {
 		inline const uintptr_t EncryptedState = 0x440;
