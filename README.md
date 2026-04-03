@@ -1,4 +1,9 @@
-here i wanna post offsets who no one dumping then me
+what you can find here?
+      External offsets -> 51
+      Internal offsets -> 17
+      DecryptLuaState
+      Lua Structs -> in progress...
+      Lua Encryptions -> in progress...
 
 star this project if u can, thx!
 
