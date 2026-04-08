@@ -1,5 +1,5 @@
 // By BinaryCrypt (Aka Qwar1e)
-// Time taken: 0.116456s
+// Time taken: 0.074771s
 
 #include <Windows.h>
 #include <stdint.h>
@@ -8,7 +8,7 @@ struct lua_State;
 
 namespace Offsets {
 	namespace ScriptContext {
-		inline const uintptr_t EncryptedState = 0x440;
+		inline const uintptr_t EncryptedState = 0x334;
 	}
 }
 

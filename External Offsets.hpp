@@ -1,5 +1,5 @@
 // By BinaryCrypt (Aka Qwar1e)
-// Time taken: 45.758444s
+// Time taken: 47.052858s
 // Offsets Count: 52
 
 #include <Windows.h>
@@ -15,10 +15,10 @@ struct Color3 {
 }
 
 namespace Offsets {
-	inline const std::string RobloxVersion = "version-689e359b09ad43b0";
+	inline const std::string RobloxVersion = "version-695a88dd8425491f";
 
     namespace DataModel {
-        inline constexpr uintptr_t FakeDataModelPointer = 0x834A988; // (uintptr_t) (Roblox::FakeDataModelPointer)
+        inline constexpr uintptr_t FakeDataModelPointer = 0x7A1F238; // (uintptr_t) (Roblox::FakeDataModelPointer)
         inline constexpr uintptr_t FakeDataModelToDataModel = 0x1C0; // (uintptr_t) (FakeDataModelPointer::FakeDataModelToDataModel)
         inline constexpr uintptr_t Workspace = 0x178; // (uintptr_t) (DataModel::Workspace)
         inline constexpr uintptr_t ScriptContext = 0x3F0; // (uintptr_t) (DataModel::ScriptContext)
@@ -27,7 +27,7 @@ namespace Offsets {
     }
 
     namespace VisualEngine {
-        inline constexpr uintptr_t VisualEnginePointer = 0x7EF81D8; // (uintptr_t) (Roblox::VisualEnginePointer)
+        inline constexpr uintptr_t VisualEnginePointer = 0x75CDF30; // (uintptr_t) (Roblox::VisualEnginePointer)
         inline constexpr uintptr_t FakeDataModelPointer = 0xA40; // (uintptr_t) (VisualEnginePointer::FakeDataModelPointer)
         inline constexpr uintptr_t FakeDataModelToDataModel = 0x1C0; // (uintptr_t) (FakeDataModelPointer::FakeDataModelToDataModel)
     }
@@ -79,13 +79,13 @@ namespace Offsets {
         inline constexpr uintptr_t PartSize = 0x1B0; // (Vector3) (BasePart::Primitive::Size)
         inline constexpr uintptr_t RootPriority = 0x1; // (int) (BasePart::Primitive::RootPriority) | Removed from dumps
         inline constexpr uintptr_t Color = 0x194; // (Color3) (BasePart::Color)
-        inline constexpr uintptr_t CastShadow = 0x2C5; // (bool) (BasePart::CastShadow)
+        inline constexpr uintptr_t CastShadow = 0xF5; // (bool) (BasePart::CastShadow)
         inline constexpr uintptr_t Locked = 0xF6; // (bool) (BasePart::Locked)
-        inline constexpr uintptr_t Sandboxed = 0x2F4; // (bool) (BasePart::Sandboxed)
+        inline constexpr uintptr_t Sandboxed = 0xC5; // (bool) (BasePart::Sandboxed)
         inline constexpr uintptr_t Archivable = 0xC4; // (bool) (BasePart::Archivable)
-        inline constexpr uintptr_t AudioCanCollide = 0x2C4; // (bool) (BasePart::AudioCanCollide)
-        inline constexpr uintptr_t Massless = 0xF7; // (bool) (BasePart::Massless)
-        inline constexpr uintptr_t EnableFluidForces = 0x352; // (bool) (BasePart::Primitive::EnableFluidForces)
+        inline constexpr uintptr_t AudioCanCollide = 0xF4; // (bool) (BasePart::AudioCanCollide)
+        inline constexpr uintptr_t Massless = 0x2C4; // (bool) (BasePart::Massless)
+        inline constexpr uintptr_t EnableFluidForces = 0x255; // (bool) (BasePart::Primitive::EnableFluidForces)
     }
 
     namespace ClickDetector {
