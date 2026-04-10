@@ -1,5 +1,5 @@
 // By BinaryCrypt (Aka Qwar1e)
-// Time taken: 0.074771s
+// Time taken: 0.081163s
 
 #include <Windows.h>
 #include <stdint.h>
