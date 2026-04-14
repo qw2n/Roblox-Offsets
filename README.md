@@ -1,3 +1,9 @@
+Dumper status - 🔴
+
+      🔴 - Down
+      🟡 - Have any issues
+      🟢 - Works without any problems
+
 What you can find here?
 
       External Offsets  →  Rewriting...
@@ -6,8 +12,8 @@ What you can find here?
       RakNet            →  None
       FFlags            →  None
       DecryptLuaState   →  Rewriting...
-      Lua Structures    →  In progress…
-      Lua Encryptions   →  In progress…
+      Lua Structures    →  In progress...
+      Lua Encryptions   →  In progress...
 
 How to contact with me?
 
