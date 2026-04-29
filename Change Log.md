@@ -1,26 +1,7 @@
-Versions:
-
-    External Dumper Version: 1.0.1
-    Internal Dumper Version: 1.0.1
-    DecryptLuaState Dumper Version: 1.0.1
+Dumper Version -> v1.0.0.0b
 
 Whats new?
 
-External Dumper v1.0.1:
-```
-[+] Added ScriptContext
+    [?] I forget to save my dumper source before reset pc and i start work on new dumper 💀
 
-// any
-[+] Dumping more faster
-[+] Rewritten memory manager
-```
-
-Internal Dumper v1.0.1:
-```
-[+] KTable replaced from Misc to Roblox namespace
-```
-
-DecryptLuaState Dumper v1.0.1:
-```
-[+] Recoded
-```
+    [+] Full rewritten internal dumper
