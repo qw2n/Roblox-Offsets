@@ -1,4 +1,4 @@
-Dumper status - 🔴
+Dumper status - 🟢
 
       🔴 - Down
       🟡 - Have any issues
@@ -7,7 +7,7 @@ Dumper status - 🔴
 What you can find here?
 
       External Offsets  →  Rewriting in progress...
-      Internal Offsets  →  Rewriting in progress...
+      Internal Offsets  →  107
       Hyperion Offsets  →  None
       RakNet            →  None
       FFlags            →  None
