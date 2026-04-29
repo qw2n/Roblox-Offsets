@@ -18,4 +18,4 @@ What you can find here?
 How to contact with me?
 
       Discord: binarycrypt
-      Discord Server: https://discord.gg/pY6nDej76m
+      Discord Server: ???
