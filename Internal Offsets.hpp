@@ -1,6 +1,7 @@
 // By BinaryCrypt (Aka Qwar1e)
-// Time Taken: 2.022784s
-// Total Offsets: 107
+// GitHub: https://github.com/qw2n/Roblox-Offsets
+// Time Taken: 4.678513s
+// Total Offsets: 149
 
 #pragma once
 
@@ -39,7 +40,18 @@ namespace Offsets {
         inline const uintptr_t pusherror = 0x43A4240; // (sub)
         inline const uintptr_t currentline = 0x43A3C60; // (sub)
         inline const uintptr_t strtod = 0x56316D8; // (sub)
+        inline const uintptr_t loadsafe = 0x43A5730; // (sub)
     } // namespace Misc
+
+    namespace Roblox {
+        inline const uintptr_t GetLuaState = 0x1C4BAD0; // (sub)
+        inline const uintptr_t OpcodeLookupTable = 0x646C630; // (unk)
+        inline const uintptr_t RbxCrash = 0x4788A30; // (sub)
+        inline const uintptr_t GetGlobalState = 0x1D4BB50; // (sub)
+        inline const uintptr_t GetTlsPointer = 0x9060; // (sub)
+        inline const uintptr_t Print = 0x1E21AD0; // (sub)
+        inline const uintptr_t LuaVM_Load = 0x1C81E80; // (sub)
+    } // namespace Roblox
 
     namespace lua {
         inline const uintptr_t lua_newstate = 0x4397A50; // (sub)
@@ -80,6 +92,8 @@ namespace Offsets {
     } // namespace luaI
 
     namespace luaL {
+        inline const uintptr_t luaL_register = 0x439C0A0; // (sub)
+        inline const uintptr_t luaL_findtable = 0x439CF80; // (sub)
         inline const uintptr_t luaL_traceback = 0x439E1D0; // (sub)
         inline const uintptr_t luaL_pushresult = 0x439F3B0; // (sub)
         inline const uintptr_t luaL_errorL = 0x4399500; // (sub)
@@ -112,6 +126,12 @@ namespace Offsets {
         inline const uintptr_t luaT_objtypename = 0x43FE8A0; // (sub)
         inline const uintptr_t luaT_objtypenamestr = 0x43FE710; // (sub)
     } // namespace luaT
+
+    namespace luaU {
+        inline const uintptr_t luau_executeNoSingleStep = 0x43B75A0; // (sub)
+        inline const uintptr_t luau_execute = 0x43AD490; // (sub)
+        inline const uintptr_t luau_executeSingleStep = 0x43AD540; // (sub)
+    } // namespace luaU
 
     namespace luaV {
         inline const uintptr_t luaV_tostring = 0x43EF7F0; // (sub)
@@ -153,6 +173,41 @@ namespace Offsets {
         inline const uintptr_t db_info = 0x43C17D0; // (sub)
         inline const uintptr_t db_traceback = 0x43C2BA0; // (sub)
     } // namespace lua_Debug
+
+    namespace lua_Open {
+        inline const uintptr_t luaopen_coroutine = 0x43D1990; // (sub)
+        inline const uintptr_t luaopen_table = 0x43E5340; // (sub)
+        inline const uintptr_t luaopen_os = 0x43C6690; // (sub)
+        inline const uintptr_t luaopen_string = 0x43DAE00; // (sub)
+        inline const uintptr_t luaopen_math = 0x43DD630; // (sub)
+        inline const uintptr_t luaopen_debug = 0x43C2D60; // (sub)
+        inline const uintptr_t luaopen_utf8 = 0x43C4370; // (sub)
+        inline const uintptr_t luaopen_bit32 = 0x43E65A0; // (sub)
+        inline const uintptr_t luaopen_buffer = 0x43E8240; // (sub)
+        inline const uintptr_t luaopen_vector = 0x43EABC0; // (sub)
+    } // namespace lua_Open
+
+    namespace lua_RobloxBase {
+        inline const uintptr_t luaB_print = 0x1DC6120; // (sub)
+        inline const uintptr_t luaB_tick = 0x1DC76D0; // (sub)
+        inline const uintptr_t luaB_time = 0x1DC7700; // (sub)
+        inline const uintptr_t luaB_elapsedTime = 0x1DC5480; // (sub)
+        inline const uintptr_t luaB_wait = 0x1DC7D10; // (sub)
+        inline const uintptr_t luaB_delay = 0x1DC4D60; // (sub)
+        inline const uintptr_t luaB_spawn = 0x1DC6B60; // (sub)
+        inline const uintptr_t luaB_printidentity = 0x1DC6140; // (sub)
+        inline const uintptr_t luaB_loadstring = 0x1DC54C0; // (sub)
+        inline const uintptr_t luaB_settings = 0x1DC6720; // (sub)
+        inline const uintptr_t luaB_UserSettings = 0x1DC7890; // (sub)
+        inline const uintptr_t luaB_PluginManager = 0x1DC5C90; // (sub)
+        inline const uintptr_t luaB_warn = 0x1DC7ED0; // (sub)
+        inline const uintptr_t luaB_require = 0x1DC6230; // (sub)
+        inline const uintptr_t luaB_stats = 0x1DC7280; // (sub)
+        inline const uintptr_t luaB_version = 0x1DC7C60; // (sub)
+        inline const uintptr_t luaB_collectgarbage = 0x1DC4610; // (sub)
+        inline const uintptr_t luaB_getfenv = 0x1DC8680; // (sub)
+        inline const uintptr_t luaB_setfenv = 0x1DC8780; // (sub)
+    } // namespace lua_RobloxBase
 
     namespace lua_String {
         inline const uintptr_t str_byte = 0x43D31D0; // (sub)
