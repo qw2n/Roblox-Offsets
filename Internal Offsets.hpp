@@ -1,7 +1,7 @@
 // By BinaryCrypt (Aka Qwar1e)
 // GitHub: https://github.com/qw2n/Roblox-Offsets
-// Time Taken: 4.678513s
-// Total Offsets: 149
+// Time Taken: 4.331935s
+// Total Offsets: 151
 
 #pragma once
 
@@ -51,6 +51,8 @@ namespace Offsets {
         inline const uintptr_t GetTlsPointer = 0x9060; // (sub)
         inline const uintptr_t Print = 0x1E21AD0; // (sub)
         inline const uintptr_t LuaVM_Load = 0x1C81E80; // (sub)
+        inline const uintptr_t VerifyBytecode = 0x1C80D50; // (sub)
+        inline const uintptr_t PushInstance = 0x1D43290; // (sub)
     } // namespace Roblox
 
     namespace lua {
