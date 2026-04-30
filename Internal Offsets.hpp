@@ -1,7 +1,7 @@
 // By BinaryCrypt (Aka Qwar1e)
 // GitHub: https://github.com/qw2n/Roblox-Offsets
-// Time Taken: 4.331935s
-// Total Offsets: 151
+// Time Taken: 4.443021s
+// Total Offsets: 154
 
 #pragma once
 
@@ -48,6 +48,7 @@ namespace Offsets {
         inline const uintptr_t OpcodeLookupTable = 0x646C630; // (unk)
         inline const uintptr_t RbxCrash = 0x4788A30; // (sub)
         inline const uintptr_t GetGlobalState = 0x1D4BB50; // (sub)
+        inline const uintptr_t RZeroMemory = 0x5610280; // (sub)
         inline const uintptr_t GetTlsPointer = 0x9060; // (sub)
         inline const uintptr_t Print = 0x1E21AD0; // (sub)
         inline const uintptr_t LuaVM_Load = 0x1C81E80; // (sub)
@@ -136,6 +137,8 @@ namespace Offsets {
     } // namespace luaU
 
     namespace luaV {
+        inline const uintptr_t luaV_gettable = 0x43F1290; // (sub)
+        inline const uintptr_t luaV_settable = 0x43F18E0; // (sub)
         inline const uintptr_t luaV_tostring = 0x43EF7F0; // (sub)
     } // namespace luaV
 
