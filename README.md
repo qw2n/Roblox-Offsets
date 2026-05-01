@@ -7,7 +7,7 @@ Dumper status - 🟢
 What you can find here?
 
       External Offsets  →  Rewriting in progress...
-      Internal Offsets  →  149
+      Internal Offsets  →  154
       Hyperion Offsets  →  None
       RakNet            →  None
       FFlags            →  None
