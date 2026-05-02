@@ -1,7 +1,7 @@
 // By BinaryCrypt (Aka Qwar1e)
 // GitHub: https://github.com/qw2n/Roblox-Offsets
-// Time Taken: 4.443021s
-// Total Offsets: 154
+// Time Taken: 4.651048s
+// Total Offsets: 283
 
 #pragma once
 
@@ -17,8 +17,7 @@ namespace Offsets {
         inline const uintptr_t deletegco = 0x43A2D00; // (sub)
         inline const uintptr_t freeobj = 0x43A28C0; // (sub)
         inline const uintptr_t freeblock = 0x43EF460; // (sub)
-        inline const uintptr_t extendstrbuf = 0x439EBA0; // (sub)
-        inline const uintptr_t index2addr = 0x4391100; // (sub)
+        inline const uintptr_t pseudo2addr = 0x4391100; // (sub)
         inline const uintptr_t newgcoblock = 0x43EF3C0; // (sub)
         inline const uintptr_t newclasspage = 0x43EF210; // (sub)
         inline const uintptr_t newpage = 0x43EF160; // (sub)
@@ -40,6 +39,7 @@ namespace Offsets {
         inline const uintptr_t pusherror = 0x43A4240; // (sub)
         inline const uintptr_t currentline = 0x43A3C60; // (sub)
         inline const uintptr_t strtod = 0x56316D8; // (sub)
+        inline const uintptr_t extendstrbuf = 0x439EBA0; // (sub)
         inline const uintptr_t loadsafe = 0x43A5730; // (sub)
     } // namespace Misc
 
@@ -58,10 +58,10 @@ namespace Offsets {
 
     namespace lua {
         inline const uintptr_t lua_newstate = 0x4397A50; // (sub)
-        inline const uintptr_t lua_xmove = 0x4391940; // (sub)
         inline const uintptr_t lua_clock = 0x43EF090; // (sub)
         inline const uintptr_t lua_typename = 0x4391C50; // (sub)
         inline const uintptr_t lua_rawcheckstack = 0x4391620; // (sub)
+        inline const uintptr_t lua_xmove = 0x4391940; // (sub)
     } // namespace lua
 
     namespace luaA {
@@ -95,15 +95,15 @@ namespace Offsets {
     } // namespace luaI
 
     namespace luaL {
-        inline const uintptr_t luaL_register = 0x439C0A0; // (sub)
-        inline const uintptr_t luaL_findtable = 0x439CF80; // (sub)
-        inline const uintptr_t luaL_traceback = 0x439E1D0; // (sub)
-        inline const uintptr_t luaL_pushresult = 0x439F3B0; // (sub)
         inline const uintptr_t luaL_errorL = 0x4399500; // (sub)
         inline const uintptr_t luaL_optlstring = 0x439A980; // (sub)
         inline const uintptr_t luaL_checklstring = 0x439A830; // (sub)
         inline const uintptr_t luaL_typeerrorL = 0x4398A90; // (sub)
         inline const uintptr_t luaL_argerrorL = 0x4398A10; // (sub)
+        inline const uintptr_t luaL_register = 0x439C0A0; // (sub)
+        inline const uintptr_t luaL_findtable = 0x439CF80; // (sub)
+        inline const uintptr_t luaL_traceback = 0x439E1D0; // (sub)
+        inline const uintptr_t luaL_pushresult = 0x439F3B0; // (sub)
     } // namespace luaL
 
     namespace luaM {
@@ -137,9 +137,9 @@ namespace Offsets {
     } // namespace luaU
 
     namespace luaV {
+        inline const uintptr_t luaV_tostring = 0x43EF7F0; // (sub)
         inline const uintptr_t luaV_gettable = 0x43F1290; // (sub)
         inline const uintptr_t luaV_settable = 0x43F18E0; // (sub)
-        inline const uintptr_t luaV_tostring = 0x43EF7F0; // (sub)
     } // namespace luaV
 
     namespace lua_Base {
@@ -164,6 +164,52 @@ namespace Offsets {
         inline const uintptr_t luaB_typeof = 0x43CA610; // (sub)
     } // namespace lua_Base
 
+    namespace lua_Bit32 {
+        inline const uintptr_t b_arshift = 0x43E5D80; // (sub)
+        inline const uintptr_t b_band = 0x43E58F0; // (sub)
+        inline const uintptr_t b_bnot = 0x43E5A70; // (sub)
+        inline const uintptr_t b_bor = 0x43E5970; // (sub)
+        inline const uintptr_t b_bxor = 0x43E59F0; // (sub)
+        inline const uintptr_t b_btest = 0x43E5930; // (sub)
+        inline const uintptr_t b_extract = 0x43E6160; // (sub)
+        inline const uintptr_t b_lrotate = 0x43E5F90; // (sub)
+        inline const uintptr_t b_lshift = 0x43E5B10; // (sub)
+        inline const uintptr_t b_replace = 0x43E6230; // (sub)
+        inline const uintptr_t b_rrotate = 0x43E6010; // (sub)
+        inline const uintptr_t b_rshift = 0x43E5C40; // (sub)
+        inline const uintptr_t b_countlz = 0x43E6390; // (sub)
+        inline const uintptr_t b_countrz = 0x43E6450; // (sub)
+        inline const uintptr_t b_byteswap = 0x43E6500; // (sub)
+    } // namespace lua_Bit32
+
+    namespace lua_Buffer {
+        inline const uintptr_t buffer_create = 0x43E65D0; // (sub)
+        inline const uintptr_t buffer_fromstring = 0x43E6680; // (sub)
+        inline const uintptr_t buffer_tostring = 0x43E6750; // (sub)
+        inline const uintptr_t buffer_readi8 = 0x43E8280; // (sub)
+        inline const uintptr_t buffer_readu8 = 0x43E83B0; // (sub)
+        inline const uintptr_t buffer_readi16 = 0x43E84E0; // (sub)
+        inline const uintptr_t buffer_readu16 = 0x43E8610; // (sub)
+        inline const uintptr_t buffer_readi32 = 0x43E8740; // (sub)
+        inline const uintptr_t buffer_readu32 = 0x43E8860; // (sub)
+        inline const uintptr_t buffer_readf32 = 0x43E8990; // (sub)
+        inline const uintptr_t buffer_readf64 = 0x43E8AC0; // (sub)
+        inline const uintptr_t buffer_writei8 = 0x43E8BF0; // (sub)
+        inline const uintptr_t buffer_writei16 = 0x43E8D70; // (sub)
+        inline const uintptr_t buffer_writei32 = 0x43E8EF0; // (sub)
+        inline const uintptr_t buffer_writef32 = 0x43E9070; // (sub)
+        inline const uintptr_t buffer_writef64 = 0x43E9200; // (sub)
+        inline const uintptr_t buffer_readstring = 0x43E6E80; // (sub)
+        inline const uintptr_t buffer_writestring = 0x43E74B0; // (sub)
+        inline const uintptr_t buffer_len = 0x43E7750; // (sub)
+        inline const uintptr_t buffer_copy = 0x43E77B0; // (sub)
+        inline const uintptr_t buffer_fill = 0x43E7AA0; // (sub)
+        inline const uintptr_t buffer_readbits = 0x43E7CF0; // (sub)
+        inline const uintptr_t buffer_writebits = 0x43E7F40; // (sub)
+        inline const uintptr_t buffer_readinteger = 0x43E6C20; // (sub)
+        inline const uintptr_t buffer_writeinteger = 0x43E6D40; // (sub)
+    } // namespace lua_Buffer
+
     namespace lua_Coroutine {
         inline const uintptr_t cocreate = 0x43D0A20; // (sub)
         inline const uintptr_t corunning = 0x43D10D0; // (sub)
@@ -179,16 +225,75 @@ namespace Offsets {
         inline const uintptr_t db_traceback = 0x43C2BA0; // (sub)
     } // namespace lua_Debug
 
+    namespace lua_Math {
+        inline const uintptr_t math_abs = 0x43DAE30; // (sub)
+        inline const uintptr_t math_acos = 0x43DB330; // (sub)
+        inline const uintptr_t math_asin = 0x43DB290; // (sub)
+        inline const uintptr_t math_atan2 = 0x43DB470; // (sub)
+        inline const uintptr_t math_atan = 0x43DB3D0; // (sub)
+        inline const uintptr_t math_ceil = 0x43DB590; // (sub)
+        inline const uintptr_t math_cosh = 0x43DB0B0; // (sub)
+        inline const uintptr_t math_cos = 0x43DB010; // (sub)
+        inline const uintptr_t math_deg = 0x43DBD40; // (sub)
+        inline const uintptr_t math_exp = 0x43DBCA0; // (sub)
+        inline const uintptr_t math_floor = 0x43DB630; // (sub)
+        inline const uintptr_t math_fmod = 0x43DB6D0; // (sub)
+        inline const uintptr_t math_frexp = 0x43DBE80; // (sub)
+        inline const uintptr_t math_ldexp = 0x43DBF40; // (sub)
+        inline const uintptr_t math_log10 = 0x43DBC00; // (sub)
+        inline const uintptr_t math_log = 0x43DBA70; // (sub)
+        inline const uintptr_t math_max = 0x43DC140; // (sub)
+        inline const uintptr_t math_min = 0x43DC060; // (sub)
+        inline const uintptr_t math_modf = 0x43DB7F0; // (sub)
+        inline const uintptr_t math_pow = 0x43DB950; // (sub)
+        inline const uintptr_t math_rad = 0x43DBDE0; // (sub)
+        inline const uintptr_t math_random = 0x43DC220; // (sub)
+        inline const uintptr_t math_randomseed = 0x43DC500; // (sub)
+        inline const uintptr_t math_sinh = 0x43DAF70; // (sub)
+        inline const uintptr_t math_sin = 0x43DAED0; // (sub)
+        inline const uintptr_t math_sqrt = 0x43DB8A0; // (sub)
+        inline const uintptr_t math_tanh = 0x43DB1F0; // (sub)
+        inline const uintptr_t math_tan = 0x43DB150; // (sub)
+        inline const uintptr_t math_noise = 0x43DC9E0; // (sub)
+        inline const uintptr_t math_clamp = 0x43DCCD0; // (sub)
+        inline const uintptr_t math_sign = 0x43DCEB0; // (sub)
+        inline const uintptr_t math_round = 0x43DCF60; // (sub)
+        inline const uintptr_t math_map = 0x43DD000; // (sub)
+        inline const uintptr_t math_lerp = 0x43DD290; // (sub)
+        inline const uintptr_t math_isnan = 0x43DD430; // (sub)
+        inline const uintptr_t math_isinf = 0x43DD4D0; // (sub)
+        inline const uintptr_t math_isfinite = 0x43DD580; // (sub)
+    } // namespace lua_Math
+
+    namespace lua_OS {
+        inline const uintptr_t os_clock = 0x43C4A70; // (sub)
+        inline const uintptr_t os_date = 0x43C5D00; // (sub)
+        inline const uintptr_t os_difftime = 0x43C6560; // (sub)
+        inline const uintptr_t os_time = 0x43C62F0; // (sub)
+    } // namespace lua_OS
+
     namespace lua_Open {
+        inline const uintptr_t base_funcs = 0x5F51190; // (dword)
+        inline const uintptr_t luaopen_base = 0x43CE300; // (sub)
+        inline const uintptr_t coroutine_funcs = 0x5F51300; // (dword)
         inline const uintptr_t luaopen_coroutine = 0x43D1990; // (sub)
+        inline const uintptr_t table_funcs = 0x5F51900; // (dword)
         inline const uintptr_t luaopen_table = 0x43E5340; // (sub)
+        inline const uintptr_t os_funcs = 0x5F51140; // (dword)
         inline const uintptr_t luaopen_os = 0x43C6690; // (sub)
+        inline const uintptr_t string_funcs = 0x5F51380; // (dword)
         inline const uintptr_t luaopen_string = 0x43DAE00; // (sub)
+        inline const uintptr_t math_funcs = 0x5F51560; // (dword)
         inline const uintptr_t luaopen_math = 0x43DD630; // (sub)
+        inline const uintptr_t debug_funcs = 0x5F510B0; // (dword)
         inline const uintptr_t luaopen_debug = 0x43C2D60; // (sub)
+        inline const uintptr_t utf8_funcs = 0x5F510E0; // (dword)
         inline const uintptr_t luaopen_utf8 = 0x43C4370; // (sub)
+        inline const uintptr_t bit32_funcs = 0x5F51A20; // (dword)
         inline const uintptr_t luaopen_bit32 = 0x43E65A0; // (sub)
+        inline const uintptr_t buffer_funcs = 0x5F51CD0; // (dword)
         inline const uintptr_t luaopen_buffer = 0x43E8240; // (sub)
+        inline const uintptr_t vector_funcs = 0x5F51EA0; // (dword)
         inline const uintptr_t luaopen_vector = 0x43EABC0; // (sub)
     } // namespace lua_Open
 
@@ -233,5 +338,50 @@ namespace Offsets {
         inline const uintptr_t str_packsize = 0x43D8D70; // (sub)
         inline const uintptr_t str_unpack = 0x43D90F0; // (sub)
     } // namespace lua_String
+
+    namespace lua_Table {
+        inline const uintptr_t concat = 0x43E26A0; // (sub)
+        inline const uintptr_t foreach = 0x43DF910; // (sub)
+        inline const uintptr_t foreachi = 0x43DEDF0; // (sub)
+        inline const uintptr_t getn = 0x43E09C0; // (sub)
+        inline const uintptr_t maxn = 0x43E0780; // (sub)
+        inline const uintptr_t insert = 0x43E1000; // (sub)
+        inline const uintptr_t remove = 0x43E1200; // (sub)
+        inline const uintptr_t sort = 0x43E45A0; // (sub)
+        inline const uintptr_t pack = 0x43E29C0; // (sub)
+        inline const uintptr_t unpack = 0x43E3070; // (sub)
+        inline const uintptr_t move = 0x43E1510; // (sub)
+        inline const uintptr_t create = 0x43E46B0; // (sub)
+        inline const uintptr_t find = 0x43E4CD0; // (sub)
+        inline const uintptr_t clear = 0x43E50D0; // (sub)
+        inline const uintptr_t freeze = 0x43E5120; // (sub)
+        inline const uintptr_t isfrozen = 0x43E5230; // (sub)
+        inline const uintptr_t clone = 0x43E5290; // (sub)
+    } // namespace lua_Table
+
+    namespace lua_UTF8 {
+        inline const uintptr_t offset = 0x43C3BF0; // (sub)
+        inline const uintptr_t codepoint = 0x43C3120; // (sub)
+        inline const uintptr_t char = 0x43C34E0; // (sub)
+        inline const uintptr_t len = 0x43C2E50; // (sub)
+        inline const uintptr_t codes = 0x43C4120; // (sub)
+    } // namespace lua_UTF8
+
+    namespace lua_Vector {
+        inline const uintptr_t vector_create = 0x43E9380; // (sub)
+        inline const uintptr_t vector_magnitude = 0x43E9540; // (sub)
+        inline const uintptr_t vector_normalize = 0x43E95E0; // (sub)
+        inline const uintptr_t vector_cross = 0x43E96D0; // (sub)
+        inline const uintptr_t vector_dot = 0x43E97D0; // (sub)
+        inline const uintptr_t vector_angle = 0x43E9880; // (sub)
+        inline const uintptr_t vector_floor = 0x43E9AD0; // (sub)
+        inline const uintptr_t vector_ceil = 0x43E9B80; // (sub)
+        inline const uintptr_t vector_abs = 0x43E9C30; // (sub)
+        inline const uintptr_t vector_sign = 0x43E9CB0; // (sub)
+        inline const uintptr_t vector_clamp = 0x43E9D80; // (sub)
+        inline const uintptr_t vector_max = 0x43EA050; // (sub)
+        inline const uintptr_t vector_min = 0x43E9F20; // (sub)
+        inline const uintptr_t vector_lerp = 0x43EA2D0; // (sub)
+    } // namespace lua_Vector
 
 } // namespace Offsets
