@@ -1,4 +1,4 @@
-Dumper status - 🔴 -- Roblox just removed all inlines and my dumper got patched💀
+Dumper status - 🔴
 
       🔴 - Down
       🟡 - Have any issues
