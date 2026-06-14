@@ -1,4 +1,4 @@
-Dumper status - 🔴
+Dumper status - 🟡
 
       🔴 - Down
       🟡 - Have any issues
@@ -6,14 +6,14 @@ Dumper status - 🔴
 
 What you can find here?
 
-      External Offsets  →  Rewriting in progress...
-      Internal Offsets  →  Rewriting in progress...
+      External Offsets  →  2
+      Internal Offsets  →  125
       Hyperion Offsets  →  None
       RakNet            →  None
       FFlags            →  None
       DecryptLuaState   →  Rewriting in progress...
-      Lua Structures    →  In progress...
-      Lua Encryptions   →  In progress...
+      Lua Structures    →  BETA
+      Lua Encryptions   →  BETA
 
 How to contact with me?
 
