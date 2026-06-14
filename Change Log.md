@@ -1,7 +1,5 @@
-Dumper Version -> v1.0.0.2b
+Dumper Version -> v1.0.1.0b
 
 Whats new?
 
-    + Internal Dumper:
-        [+] Added more new offsets
-        [+] Name of index2addr changed to pseudo2addr
+    + Full dumper rewrite
