@@ -1,0 +1,20 @@
+{
+  "RobloxVersion": "version-76173e47a79145c7",
+  "OffsetsCount": 2,
+  "Offsets": {
+    "ModuleScript": {
+      "IsCoreScript": {
+        "offset": "0x180",
+        "type": "",
+        "comment": ""
+      }
+    },
+    "ScriptContext": {
+      "RequireBypass": {
+        "offset": "0x828",
+        "type": "",
+        "comment": ""
+      }
+    }
+  }
+}

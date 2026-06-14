@@ -1,0 +1,659 @@
+{
+  "RobloxVersion": "version-76173e47a79145c7",
+  "OffsetsCount": 125,
+  "Offsets": {
+    "Misc": {
+      "currfuncname": {
+        "offset": "0x4538520",
+        "type": "sub",
+        "comment": ""
+      },
+      "getfunc": {
+        "offset": "0x454D820",
+        "type": "sub",
+        "comment": ""
+      },
+      "idk1": {
+        "offset": "0x453D110",
+        "type": "sub",
+        "comment": ""
+      },
+      "idk2": {
+        "offset": "0x453E4F0",
+        "type": "sub",
+        "comment": ""
+      },
+      "propagatemark": {
+        "offset": "0x453CA60",
+        "type": "sub",
+        "comment": ""
+      },
+      "pseudo2addr": {
+        "offset": "0x45368A0",
+        "type": "sub",
+        "comment": ""
+      },
+      "strtoull": {
+        "offset": "0x0",
+        "type": "sub",
+        "comment": ""
+      },
+      "tag_error": {
+        "offset": "0x4539F10",
+        "type": "sub",
+        "comment": ""
+      }
+    },
+    "Roblox": {
+      "CastArgs": {
+        "offset": "0x1C91ED0",
+        "type": "sub",
+        "comment": ""
+      },
+      "CheckCapabilites": {
+        "offset": "0x45ABA10",
+        "type": "sub",
+        "comment": ""
+      },
+      "CheckIsCoreScript": {
+        "offset": "0x1D47580",
+        "type": "sub",
+        "comment": ""
+      },
+      "CheckRequireBypass": {
+        "offset": "0x1CB0010",
+        "type": "sub",
+        "comment": ""
+      },
+      "GetArgumentFromLuaStack": {
+        "offset": "0x1C96160",
+        "type": "sub",
+        "comment": ""
+      },
+      "GetCapabilities": {
+        "offset": "0x45AB650",
+        "type": "sub",
+        "comment": ""
+      },
+      "GetFunctionEnvironment": {
+        "offset": "0x1DC6770",
+        "type": "sub",
+        "comment": ""
+      },
+      "GetLuaStateExtraUserdata": {
+        "offset": "0x1210930",
+        "type": "sub",
+        "comment": ""
+      },
+      "GetMainThreadFromLuaState": {
+        "offset": "0x4533A30",
+        "type": "sub",
+        "comment": ""
+      },
+      "GetNullType": {
+        "offset": "0x45A8380",
+        "type": "sub",
+        "comment": ""
+      },
+      "GetRequireStack": {
+        "offset": "0x1CB0B40",
+        "type": "sub",
+        "comment": ""
+      },
+      "GetScriptContextFromLuaState": {
+        "offset": "0x1CB00D0",
+        "type": "sub",
+        "comment": ""
+      },
+      "GetValues": {
+        "offset": "0x1C92D00",
+        "type": "sub",
+        "comment": ""
+      },
+      "GetVmState": {
+        "offset": "0x61D5A0",
+        "type": "sub",
+        "comment": ""
+      },
+      "InitializeModuleScriptVmState": {
+        "offset": "0x1D47FF0",
+        "type": "sub",
+        "comment": ""
+      },
+      "IsInstance": {
+        "offset": "0x1D5EF10",
+        "type": "sub",
+        "comment": ""
+      },
+      "Print": {
+        "offset": "0x1E08380",
+        "type": "sub",
+        "comment": ""
+      },
+      "PushInstance": {
+        "offset": "0x1CA3840",
+        "type": "sub",
+        "comment": ""
+      },
+      "PushInstance2": {
+        "offset": "0x1CA4FF0",
+        "type": "sub",
+        "comment": ""
+      },
+      "RequireModuleScript": {
+        "offset": "0x1CDD000",
+        "type": "sub",
+        "comment": ""
+      },
+      "ThrowCapabilityError": {
+        "offset": "0x45AD060",
+        "type": "sub",
+        "comment": ""
+      },
+      "j_GetMainThreadFromLuaState": {
+        "offset": "0x1CB0520",
+        "type": "sub",
+        "comment": ""
+      }
+    },
+    "lua": {
+      "luaL_typename": {
+        "offset": "0x4539E10",
+        "type": "sub",
+        "comment": ""
+      },
+      "lua_clock": {
+        "offset": "0x45598B0",
+        "type": "sub",
+        "comment": ""
+      },
+      "lua_concat": {
+        "offset": "0x4532BE0",
+        "type": "sub",
+        "comment": ""
+      },
+      "lua_createtable": {
+        "offset": "0x4532D30",
+        "type": "sub",
+        "comment": ""
+      },
+      "lua_error": {
+        "offset": "0x4532F00",
+        "type": "sub",
+        "comment": ""
+      },
+      "lua_gc": {
+        "offset": "0x4532F10",
+        "type": "sub",
+        "comment": ""
+      },
+      "lua_getfenv": {
+        "offset": "0x4533150",
+        "type": "sub",
+        "comment": ""
+      },
+      "lua_getinfo": {
+        "offset": "0x453C3A0",
+        "type": "sub",
+        "comment": ""
+      },
+      "lua_getmetatable": {
+        "offset": "0x4533380",
+        "type": "sub",
+        "comment": ""
+      },
+      "lua_gettop": {
+        "offset": "0x45335B0",
+        "type": "sub",
+        "comment": ""
+      },
+      "lua_insert": {
+        "offset": "0x4533750",
+        "type": "sub",
+        "comment": ""
+      },
+      "lua_iscfunction": {
+        "offset": "0x4533870",
+        "type": "sub",
+        "comment": ""
+      },
+      "lua_isnumber": {
+        "offset": "0x45338E0",
+        "type": "sub",
+        "comment": ""
+      },
+      "lua_isstring": {
+        "offset": "0x4533950",
+        "type": "sub",
+        "comment": ""
+      },
+      "lua_newuserdatatagged": {
+        "offset": "0x4533C40",
+        "type": "sub",
+        "comment": ""
+      },
+      "lua_next": {
+        "offset": "0x4533DD0",
+        "type": "sub",
+        "comment": ""
+      },
+      "lua_objlen": {
+        "offset": "0x4533EC0",
+        "type": "sub",
+        "comment": ""
+      },
+      "lua_pushboolean": {
+        "offset": "0x4533F50",
+        "type": "sub",
+        "comment": ""
+      },
+      "lua_pushinteger": {
+        "offset": "0x45341D0",
+        "type": "sub",
+        "comment": ""
+      },
+      "lua_pushnil": {
+        "offset": "0x4534390",
+        "type": "sub",
+        "comment": ""
+      },
+      "lua_pushnumber": {
+        "offset": "0x0",
+        "type": "sub",
+        "comment": ""
+      },
+      "lua_pushstring": {
+        "offset": "0x4534470",
+        "type": "sub",
+        "comment": ""
+      },
+      "lua_pushthread": {
+        "offset": "0x4534590",
+        "type": "sub",
+        "comment": ""
+      },
+      "lua_pushvalue": {
+        "offset": "0x45346A0",
+        "type": "sub",
+        "comment": ""
+      },
+      "lua_rawequal": {
+        "offset": "0x45348D0",
+        "type": "sub",
+        "comment": ""
+      },
+      "lua_rawget": {
+        "offset": "0x45349A0",
+        "type": "sub",
+        "comment": ""
+      },
+      "lua_rawset": {
+        "offset": "0x4534EF0",
+        "type": "sub",
+        "comment": ""
+      },
+      "lua_setfenv": {
+        "offset": "0x4535700",
+        "type": "sub",
+        "comment": ""
+      },
+      "lua_setmetatable": {
+        "offset": "0x4535870",
+        "type": "sub",
+        "comment": ""
+      },
+      "lua_setsafeenv": {
+        "offset": "0x45359E0",
+        "type": "sub",
+        "comment": ""
+      },
+      "lua_settop": {
+        "offset": "0x4535AD0",
+        "type": "sub",
+        "comment": ""
+      },
+      "lua_toboolean": {
+        "offset": "0x4535D20",
+        "type": "sub",
+        "comment": ""
+      },
+      "lua_tolstring": {
+        "offset": "0x4535F10",
+        "type": "sub",
+        "comment": ""
+      },
+      "lua_tonumberx": {
+        "offset": "0x4536120",
+        "type": "sub",
+        "comment": ""
+      },
+      "lua_type": {
+        "offset": "0x4536550",
+        "type": "sub",
+        "comment": ""
+      },
+      "lua_typename": {
+        "offset": "0x45365B0",
+        "type": "sub",
+        "comment": ""
+      }
+    },
+    "luaC": {
+      "luaC_barrierback": {
+        "offset": "0x453D3D0",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaC_step": {
+        "offset": "0x453D620",
+        "type": "sub",
+        "comment": ""
+      }
+    },
+    "luaD": {
+      "luaD_rawunprotected": {
+        "offset": "0x45376C0",
+        "type": "sub",
+        "comment": ""
+      }
+    },
+    "luaF": {
+      "luaF_freeproto": {
+        "offset": "0x4563110",
+        "type": "sub",
+        "comment": ""
+      }
+    },
+    "luaI": {
+      "luai_num2str": {
+        "offset": "0x456A630",
+        "type": "sub",
+        "comment": ""
+      }
+    },
+    "luaL": {
+      "luaL_argerrorL": {
+        "offset": "0x4538A30",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaL_checkany": {
+        "offset": "0x4538B20",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaL_checkinteger": {
+        "offset": "0x4538C30",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaL_checklstring": {
+        "offset": "0x0",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaL_checktype": {
+        "offset": "0x4538D40",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaL_errorL": {
+        "offset": "0x4538E00",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaL_getmetafield": {
+        "offset": "0x4538F80",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaL_optinteger": {
+        "offset": "0x4539150",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaL_optlstring": {
+        "offset": "0x45391B0",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaL_tolstring": {
+        "offset": "0x0",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaL_where": {
+        "offset": "0x4539E40",
+        "type": "sub",
+        "comment": ""
+      }
+    },
+    "luaO": {
+      "luaO_nilobject": {
+        "offset": "0x67AE440",
+        "type": "sub",
+        "comment": ""
+      }
+    },
+    "luaS": {
+      "luaS_newlstr": {
+        "offset": "0x456A0D0",
+        "type": "sub",
+        "comment": ""
+      }
+    },
+    "luaV": {
+      "luaV_tostring": {
+        "offset": "0x45659F0",
+        "type": "sub",
+        "comment": ""
+      }
+    },
+    "lua_Base": {
+      "luaB_assert": {
+        "offset": "0x454D640",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaB_error": {
+        "offset": "0x454D100",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaB_gcinfo": {
+        "offset": "0x454D530",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaB_getfenv": {
+        "offset": "0x454D290",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaB_getmetatable": {
+        "offset": "0x454D170",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaB_newproxy": {
+        "offset": "0x454D790",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaB_next": {
+        "offset": "0x454D5E0",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaB_print": {
+        "offset": "0x454CEE0",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaB_rawequal": {
+        "offset": "0x454D3D0",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaB_rawget": {
+        "offset": "0x454D420",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaB_rawlen": {
+        "offset": "0x454D4D0",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaB_rawset": {
+        "offset": "0x454D470",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaB_select": {
+        "offset": "0x454D6B0",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaB_setfenv": {
+        "offset": "0x454D2F0",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaB_setmetatable": {
+        "offset": "0x454D1D0",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaB_tonumber": {
+        "offset": "0x454CFC0",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaB_tostring": {
+        "offset": "0x454D760",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaB_type": {
+        "offset": "0x454D560",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaB_typeof": {
+        "offset": "0x454D5A0",
+        "type": "sub",
+        "comment": ""
+      }
+    },
+    "lua_Open": {
+      "base_funcs": {
+        "offset": "0x67ABFD0",
+        "type": "unk",
+        "comment": ""
+      },
+      "robloxbase_funcs": {
+        "offset": "0x5D0B610",
+        "type": "unk",
+        "comment": ""
+      }
+    },
+    "lua_RobloxBase": {
+      "luaRB_PluginManager": {
+        "offset": "0x1DC6F90",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaRB_UserSettings": {
+        "offset": "0x1DC7E60",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaRB_collectgarbage": {
+        "offset": "0x1DC6240",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaRB_delay": {
+        "offset": "0x1DC6580",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaRB_elapsedTime": {
+        "offset": "0x1DC6740",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaRB_getfenv": {
+        "offset": "0x1DC6900",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaRB_loadstring": {
+        "offset": "0x1DC69D0",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaRB_print": {
+        "offset": "0x1DC70C0",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaRB_printidentity": {
+        "offset": "0x1DC70E0",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaRB_require": {
+        "offset": "0x1DC71B0",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaRB_setfenv": {
+        "offset": "0x1DC7740",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaRB_settings": {
+        "offset": "0x1DC7890",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaRB_spawn": {
+        "offset": "0x1DC79E0",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaRB_stats": {
+        "offset": "0x1DC7BA0",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaRB_tick": {
+        "offset": "0x1DC7D70",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaRB_time": {
+        "offset": "0x1DC7DA0",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaRB_version": {
+        "offset": "0x1DC7F50",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaRB_wait": {
+        "offset": "0x1DC7FC0",
+        "type": "sub",
+        "comment": ""
+      },
+      "luaRB_warn": {
+        "offset": "0x1DC80D0",
+        "type": "sub",
+        "comment": ""
+      }
+    }
+  }
+}

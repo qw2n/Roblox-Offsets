@@ -1,0 +1,11 @@
+#pragma once
+
+#define PROTO_LINEINFO_ENC VMValue2
+#define PROTO_LOCVARS_ENC VMValue3
+#define PROTO_UPVALUES_ENC VMValue1
+#define PROTO_SOURCE_ENC VMValue1
+#define PROTO_DEBUGINSN_ENC VMValue4
+#define PROTO_DEBUGNAME_ENC None
+#define PROTO_TYPEINFO_ENC VMValue4
+
+#define UDATA_META_ENC VMValue4
