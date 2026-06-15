@@ -8,8 +8,8 @@
         "Raknet": "None",
         "Hyperion": "None",
 
-        "LuaU Structures": "In-Beta (Testing)",
-        "LuaU Encryptions": "In-Beta (Testing)",
+        "LuaU Structures": "In-Beta",
+        "LuaU Encryptions": "In-Beta",
 
         "DecryptLuaState": "Rewrite in progress..."
     }
