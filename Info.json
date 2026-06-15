@@ -1,0 +1,16 @@
+{
+    "Status": "🟡 Have any issues",
+
+    "OffsetsInfo":{
+        "Internal": "125",
+        "External": "2",
+
+        "Raknet": "None",
+        "Hyperion": "None",
+
+        "LuaU Structures": "In-Beta",
+        "LuaU Encryptions": "In-Beta",
+
+        "DecryptLuaState": "Rewrite in progress..."
+    }
+}
